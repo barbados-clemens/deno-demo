@@ -1,3 +1,6 @@
 {
-  "imports": {}
+  "imports": {
+    "@deno-demo/deno-lib-one": "./libs/deno-lib-one/src/index.ts",
+    "@deno-demo/deno-lib-two": "./libs/deno-lib-two/src/index.ts"
+  }
 }

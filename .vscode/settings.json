@@ -1,5 +1,9 @@
 {
-  "deno.enablePaths": ["apps/deno-app"],
+  "deno.enablePaths": [
+    "apps/deno-app",
+    "libs/deno-lib-one",
+    "libs/deno-lib-two"
+  ],
   "deno.unstable": true,
   "deno.importMap": "./import_map.json"
 }
