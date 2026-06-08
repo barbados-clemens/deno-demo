@@ -15,3 +15,7 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## About This Repository
+
+This repository is an Nx monorepo demonstrating how to build and manage Deno projects with Nx tooling. It contains a Deno HTTP server application (`apps/deno-app`) that serves requests using Deno's standard library, backed by two shared Deno libraries (`libs/deno-lib-one` and `libs/deno-lib-two`) that can be reused across apps in the workspace.
